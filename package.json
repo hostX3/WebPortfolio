@@ -1,0 +1,29 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "dist",
+    "start": "node server.js"
+  },
+  "author": "Carlos_Garcia",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hostX3/WebPortfolio.git"
+  },
+  "keywords": [
+    "webportfolio"
+  ],
+  "bugs": {
+    "url": "https://github.com/hostX3/WebPortfolio/issues"
+  },
+  "homepage": "https://github.com/hostX3/WebPortfolio#readme"
+}
