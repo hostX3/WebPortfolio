@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const router = express.Router();
 const app = express();
-const port = 3000;
+const port = 3001;
 
 
 
@@ -11,7 +11,7 @@ router.get('/', function (req, res) {
     //__dirname : It will resolve to your project folder.
 });
 
-router.get('/index.html', function (req, res) {
+router.get('/index', function (req, res) {
     res.sendFile(path.join(__dirname + '/dist/index.html'));
    
 });
@@ -38,6 +38,6 @@ app.use('/', router);
 
 
 
-app.listen(port, function () {
+app.listen(process.env.PORT || port, function () {
     console.log('app listening on port ' + port);
 });

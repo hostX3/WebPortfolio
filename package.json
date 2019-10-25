@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/hostX3/WebPortfolio#readme",
     "engines": {
-      "node": ">=10.0.0",
-      "npm": ">=6.0.0"
+      "node": "10.15.2",
+      "npm": ">=6.11.3"
     }
 }
