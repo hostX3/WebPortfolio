@@ -16,17 +16,17 @@ router.get('/index', function (req, res) {
    
 });
 
-router.get('/about.html', function (req, res) {
+router.get('/about', function (req, res) {
     res.sendFile(path.join(__dirname + '/dist/about.html'));
     
 });
 
-router.get('/contact.html', function (req, res) {
+router.get('/contact', function (req, res) {
     res.sendFile(path.join(__dirname + '/dist/contact.html'));
     
 });
 
-router.get('/work.html', function (req, res) {
+router.get('/work', function (req, res) {
     res.sendFile(path.join(__dirname + '/dist/work.html'));
     //__dirname : It will resolve to your project folder.
 });
