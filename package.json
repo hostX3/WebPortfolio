@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/hostX3/WebPortfolio/issues"
   },
-  "homepage": "https://github.com/hostX3/WebPortfolio#readme"
+  "homepage": "https://github.com/hostX3/WebPortfolio#readme",
+    "engines": {
+      "node": ">=10.0.0",
+      "npm": ">=6.0.0"
+    }
 }
