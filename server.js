@@ -33,7 +33,7 @@ router.get('/work.html', function (req, res) {
 
 
 app.use(express.static('public'));
-app.use(express.static('dist'));
+
 app.use('/', router);
 
 
