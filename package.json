@@ -16,6 +16,10 @@
     "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   },
+  
+  "devDependencies": {
+  "cryptiles": ">=4.1.2"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hostX3/WebPortfolio.git"
