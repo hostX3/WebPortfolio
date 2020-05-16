@@ -4,6 +4,7 @@ const router = express.Router();
 const app = express();
 const port = 3001;
 
+
 router.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/dist/index.html'));
     //__dirname : It will resolve to your project folder.
