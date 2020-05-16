@@ -11,14 +11,12 @@
   "author": "Carlos_Garcia",
   "license": "MIT",
   "dependencies": {
-    "node": "^10.15.2",
     "express": "^4.17.1",
     "gh-pages": "^1.2.0",
-    "node-sass": "^4.9.2"
-   
-    
+    "minimist": "^1.2.5",
+    "node": "^10.15.2",
+    "node-sass": "^4.14.1"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hostX3/WebPortfolio.git"
@@ -30,8 +28,8 @@
     "url": "https://github.com/hostX3/WebPortfolio/issues"
   },
   "homepage": "https://github.com/hostX3/WebPortfolio#readme",
-    "engines": {
-      "node": "10.15.2",
-      "npm": ">=6.11.3"
-    }
+  "engines": {
+    "node": "10.15.2",
+    "npm": ">=6.11.3"
+  }
 }
