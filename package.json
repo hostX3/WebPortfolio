@@ -1,36 +1,28 @@
 {
-  "name": "modern_portfolio",
+  "name": "webportfolio",
   "version": "1.0.0",
-  "description": "Responsive portfolio website",
-  "main": "index.js",
+  "description": "\"A simple responsive web-portfolio\"",
+  "main": "server.js",
   "scripts": {
-    "deploy": "dist",
-    "start": "node public/server.js"
-  },
-  "author": "Carlos_Garcia",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1",
-    "gh-pages": "^1.2.0",
-    "node": "^10.15.2",
-    "node-sass": "^4.14.1"
+    "start": "node ./public/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hostX3/WebPortfolio.git"
+    "url": "git+https://github.com/HostXX/webportfolio.git"
   },
   "keywords": [
-    "webportfolio"
+    "webPortfolio",
+    "web",
+    "porfolio",
+    "html"
   ],
+  "author": "Carlos Garcia",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hostX3/WebPortfolio/issues"
+    "url": "https://github.com/HostXX/webportfolio/issues"
   },
-  "homepage": "https://github.com/hostX3/WebPortfolio#readme",
-  "engines": {
-    "node": "10.15.2",
-    "npm": ">=6.11.3"
-  },
-  "devDependencies": {
-    "minimist": "^1.2.5"
+  "homepage": "https://github.com/HostXX/webportfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
