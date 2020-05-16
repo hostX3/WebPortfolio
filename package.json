@@ -1,0 +1,28 @@
+{
+  "name": "webportfolio",
+  "version": "1.0.0",
+  "description": "\"A simple responsive web-portfolio\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./public/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HostXX/webportfolio.git"
+  },
+  "keywords": [
+    "webPortfolio",
+    "web",
+    "porfolio",
+    "html"
+  ],
+  "author": "Carlos Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HostXX/webportfolio/issues"
+  },
+  "homepage": "https://github.com/HostXX/webportfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
